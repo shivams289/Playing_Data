@@ -37,11 +37,11 @@ Use `plt.xlabel(“air”)` and `plt.ylabel(“wind”)` for labelling axes
                         
   #SCATTER PLOTS
 
-*`sns.scatterplot(x=insurance_data['bmi'], y=insurance_data['charges’])` :Scatter plot*
+`sns.scatterplot(x=insurance_data['bmi'], y=insurance_data['charges’])` :Scatter plot*
 
-*`sns.regplot(x=insurance_data['bmi'], y=insurance_data['charges’])`. :Scatterplot with regression line*
+`sns.regplot(x=insurance_data['bmi'], y=insurance_data['charges’])`. :Scatterplot with regression line*
 
-*`sns.scatterplot(x=insurance_data['bmi'], y=insurance_data['charges'], hue=insurance_data['smoker'])` : Scatter plot with colour coding according a data like Smoker*
+`sns.scatterplot(x=insurance_data['bmi'], y=insurance_data['charges'], hue=insurance_data['smoker'])` : Scatter plot with colour coding according a data like Smoker*
 
 `sns.lmplot(x="bmi", y="charges", hue="smoker", data=insurance_data)` :Colour coded scatterplot with regression line
 
